@@ -17,9 +17,10 @@ theme = 'hugo-bearblog'
     dir = ':cacheDir/images'
 
 [[menu.main]]
-  name = "Blog"  # Auto-links to /posts/
-  url = "posts/"  # No leading / safe
+  name = "Blog"
+  url = "/posts/"  # Absolute leading /
 
 [[menu.main]]
   name = "Projects"
-  url = "projects/"
+  url = "/projects/"
+
