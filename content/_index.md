@@ -1,6 +1,6 @@
 ---
 title: "Animesh HQ"
-description: "Building startups, fintech, and systems that compound."
+description: "Building systems that compound."
 ---
 
 ### welcome to my internet corner
