@@ -4,6 +4,9 @@ title = 'Hi, I am Animesh'
 
 theme = 'hugo-bearblog'
 
+[build]
+  writeStats = true
+
 [params]
   Description = "Minimalist blog."
   Dateform = "Jan 2, 2006"
