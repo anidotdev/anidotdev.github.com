@@ -1,0 +1,42 @@
+{
+  "htmlElements": {
+    "tags": [
+      "a",
+      "body",
+      "br",
+      "content",
+      "div",
+      "em",
+      "footer",
+      "h1",
+      "h2",
+      "h3",
+      "head",
+      "header",
+      "html",
+      "i",
+      "li",
+      "link",
+      "main",
+      "meta",
+      "nav",
+      "p",
+      "script",
+      "small",
+      "span",
+      "strong",
+      "style",
+      "time",
+      "title",
+      "ul"
+    ],
+    "classes": [
+      "blog-posts",
+      "title"
+    ],
+    "ids": [
+      "the-story-of-http--the-language-of-the-web",
+      "welcome-to-my-internet-corner"
+    ]
+  }
+}

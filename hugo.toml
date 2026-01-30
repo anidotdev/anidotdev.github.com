@@ -15,3 +15,11 @@ theme = 'hugo-bearblog'
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
+
+[[menu.main]]
+  name = "Blog"  # Auto-links to /posts/
+  url = "posts/"  # No leading / safe
+
+[[menu.main]]
+  name = "Projects"
+  url = "projects/"
