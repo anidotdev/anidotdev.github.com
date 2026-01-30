@@ -1,0 +1,14 @@
+baseURL = 'https://animeshhq.github.io/'
+languageCode = 'en-us'
+title = 'Hi, I am Animesh'
+
+theme = 'hugo-bearblog'
+
+[params]
+  Description = "Minimalist blog."
+  Dateform = "Jan 2, 2006"
+  Author = "Animesh Gautam"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
