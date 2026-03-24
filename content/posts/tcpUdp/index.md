@@ -30,7 +30,7 @@ While it’s technically possible to send data using only IP, but then you will 
 
 SO what exactly is TCP or UDP for that matter.
 
-![TCP vs UDP](tcpUdp.svg)
+{{< figure src="tcpUdp.svg" alt="TCP vs UDP" >}}
 
 Lets take a look at the image above... it has a server that is running 3 applications, namely, a Minecraft server, an FTP and a web server ( don't worry if you don't know what those are, just know that they are like apps ).
 
@@ -42,7 +42,7 @@ Well that is exactly where protocols like TCP or UDP come into action.
 
 A TCP/UDP protocol carries a port number with them in their header ( more on this later ) which tells the server that where a particular packet needs to be sent. Now here is another image with port numbers.
 
-![TCP/UDP Port](tcpUdpPort.svg)
+{{< figure src="tcpUdpPort.svg" alt="TCP/UDP Port" >}}
 
 Now lets go back to the Minecraft example, this time I will enter the IP and the port number of the Minecraft server in my game and click connect again.
 This time the server will know that the packet (data) which I sent to the server needs to be given to the Minecraft process and thus a secure connection is established and now I can happily play with my friends online. LETS GOOO!!!
@@ -90,7 +90,7 @@ My favorite game which is Minecraft uses TCP protocol to establish connection be
 In layman's terms, a **TCP or UDP header** is label attached to a piece of data (a packet) before it is sent over a network.
 It contains information required for reliable transmission of data between client and a server.
 
-![TCP Header](tcpHeader.svg){width=385px}
+{{< figure src="tcpHeader.svg" alt="TCP Header" width="385" >}}
 
 The image above shows the header part and its composition.
 
