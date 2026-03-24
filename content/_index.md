@@ -5,7 +5,7 @@ description: "Building systems that compound."
 
 ### welcome to my internet corner
 
-This site is a public workspace.\
+This site is my public workspace.\
 I write to clarify my thinking, document what I’m building, and track ideas over time.\
 Most of it is unfinished by design.
 
