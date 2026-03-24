@@ -4,6 +4,13 @@ title = 'Hi, I am Animesh'
 
 theme = 'hugo-bearblog'
 
+# Fix ugly URLs + clean permalinks
+uglyURLs = true
+
+[permalinks]
+  posts = '/posts/:slug/'
+  projects = '/projects/:slug/'
+
 [build]
   writeStats = true
 
@@ -12,15 +19,17 @@ theme = 'hugo-bearblog'
   Dateform = "Jan 2, 2006"
   Author = "Animesh Gautam"
 
+[markup.goldmark.renderer]
+  unsafe = true  # For inline SVG
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
 
 [[menu.main]]
   name = "Blog"
-  url = "/posts/"  # Absolute leading /
+  url = "/posts/"
 
 [[menu.main]]
   name = "Projects"
   url = "/projects/"
-
