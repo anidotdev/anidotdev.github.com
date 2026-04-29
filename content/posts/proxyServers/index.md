@@ -19,7 +19,7 @@ For this article, I am more interested to talk about how we can setup our own pr
 
 The following is how the flow of a request and response happens between client and server via a proxy -
 
-![[Untitled-2026-03-23-0026.svg]]
+{{< figure src="Untitled-2026-03-23-0026.svg" alt="Proxy Server Flow" >}}
 
 
 There are many different tools that we can use to setup a proxy server, like Nginx, Apache, Envoy etc.
