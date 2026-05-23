@@ -2,6 +2,7 @@
 date = '2026-04-29T16:00:00+05:30'
 draft = false
 title = 'Proxy Servers'
+slug = 'proxy-servers'
 +++
 
 # Proxy Servers
