@@ -5,7 +5,7 @@ title = 'Hi, I am Animesh'
 theme = 'hugo-bearblog'
 
 # Fix ugly URLs + clean permalinks
-uglyURLs = true
+uglyURLs = false
 
 [permalinks]
   posts = '/posts/:slug/'
