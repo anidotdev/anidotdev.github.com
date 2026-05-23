@@ -2,6 +2,7 @@
 date = '2026-03-24T22:53:37+05:30'
 draft = false
 title = 'All about TCP, UDP'
+slug = 'tcp-udp'
 +++
 
 # All about TCP, UDP
