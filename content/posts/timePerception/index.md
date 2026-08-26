@@ -1,4 +1,11 @@
-# Reflection: Time Perception
++++
+date = '2026-08-26T23:45:00+05:30'
+draft = false
+title = 'Time Perception'
+slug = 'time-perception'
++++
+
+# Time Perception
 
 Do you think an average human life is around 70 years? So that would mean the middle point of our life is 35 years old.
 
